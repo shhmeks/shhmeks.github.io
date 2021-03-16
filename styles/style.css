@@ -16,7 +16,9 @@ body{
   color: #ffffff;
   margin: auto;
 }
-
+.menu nav ul{
+  margin-left: 100px;
+}
 .menu nav a {
   text-decoration: none;
   color: #fff;
@@ -45,7 +47,7 @@ img{
 
 .main-wrap{
   width: 980px;
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
 }
 
@@ -173,6 +175,7 @@ h1 {
     margin-top: 10px;
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .pre-subheading{
@@ -183,7 +186,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
 }
-.red-article {
+.grey-article {
     color: #5c5f72;
 }
 .date-article {
@@ -204,10 +207,14 @@ h1 {
     width: 4%;
 } 
 
-/* Laboratory work */
+/* Laboratory work 2*/
 .right-side-lab{
-    width: 1300px;
-    height: auto;
+  width: 1300px;
+  background: #fff;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .right-side-lab ul,ol,dd{
@@ -219,47 +226,52 @@ h1 {
   margin-bottom: 17px;
 }
 
+.tag-lab-main{ 
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.tag-lab{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
 .entities{
   font-size: 16px;
 }
 
-.right-side-lab{
-  padding-top: 70px;
-  padding-bottom: 90px;
-  padding-left: 90px;
-  padding-right: 90px;
-}
-
-.tag-lab{
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 30px;
-}
-
-.tag-lab-main{ 
-  margin-bottom: 20px;
-  margin-top: 0px;
-  font-size: 40px;
-  text-align: center;
-}
-
-.tag-lab{
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 30px;
-}
-
-.tag-lab-main{ 
-  margin-bottom: 20px;
-  margin-top: 0px;
-  font-size: 40px;
-  text-align: center;
-}
-
+/* Laboratory work 3*/
 .section-lab3{
   border: 1px solid grey;
   padding: 10px;
   width: 800px;
+}
+
+.section-lab3 p{
+  margin-top: 10px;
+}
+
+.white-cat{
+  width: 700px;
+}
+
+.lab3-jastin{
+  font-size: 20px;
+  color: green;
+}
+
+.lab3-signature{
+  background: red;
+  color: white;
+}
+.lab3-figure{
+  border: 2px solid black;
+  width: 714px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 .lab-menu{
@@ -290,4 +302,172 @@ h1 {
 
 .lab-menu a:hover{
   text-decoration: underline;
+}
+
+/* Laboratory work 4*/
+/*task 1*/
+.lab4-myblock{
+    font-family: Arial, sans-serif;
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 0 0 0 200px;
+}
+.lab4-lemon {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background: url(https://cdn4.iconfinder.com/data/icons/Limon_iContainer/512/Grapefruit.png);
+    background-size: contain;
+    background-position: 50%;
+    border-radius: 5xp;
+    float: left;
+}
+.lab4-about-lemon h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+.lab4-about-lemon p {
+    font-size: 12px;
+    line-height: 150%;
+    margin: 20px 0;
+}
+
+
+/*task 2*/
+.lab4-wrap {
+    font-family: 'Exo 2', sans-serif;
+    width: 380px;
+    margin: 20px auto;
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.lab4-h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lab4-img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 300px;
+    box-shadow: 0px 0px 10px #454545;
+}
+.lab4-p {
+    font-size: 13px;
+    line-height: 150%;
+    margin: 5px 0px;
+    padding: 5px;
+}
+.lab4-info {
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px;
+    text-align: center;
+}
+.lab4-side {
+    font-weight: 700;
+    width: 180px;
+    display: inline-block;
+}
+.lab4-p:nth-child(2n) {
+    background: #ececec;
+}
+
+/*task 3*/
+
+.lab4-ul li {
+  margin: 0 0 0 350px;
+  font-family: sans-serif;
+}
+
+.lab4-ul li:first-child::marker {
+  content: '\2660   ';
+}
+
+.lab4-ul li:nth-child(2)::marker {
+  content: '\2663   ';
+}
+
+.lab4-ul li:nth-child(3)::marker {
+  content: '\2666   ';
+  color: red;
+}
+
+.lab4-ul li:last-child::marker {
+  content: '\2665   ';
+  color: red;
+}
+
+/*task 4*/
+.lab4-pre{
+  background: #5c5f72;
+  color: white;
+  width: 450px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 0 0 0 200px;
+}
+
+/*task 5*/
+.lab4-links {
+  width: 240px;
+  background: #F6967D;
+  margin: 0 0 0 300px;
+}
+.lab4-links a {
+  color: #FFFDEB;
+  display: inline-block;
+  border-right: 1px solid #B62025;
+  padding: 5px 10px;
+}
+.lab4-links a:last-child {
+  border-right: none;
+}
+
+/*task 6*/
+.lab-h1-line {
+  display: inline-block;
+  border-right: 350px solid black;
+  border-left: 350px solid black;
+  line-height: 5px;
+  font-size:34px;
+  font-family: 'times new roman';
+}
+
+/*task 7*/
+.lab4-div {
+  border: 4px solid #000;
+  margin-bottom: 10px;
+  margin-left: 320px;
+  width: 158px;
+  height: 58px; 
+  position: relative;
+}
+.red-battery::before {
+  background-color: red;
+  width: 50px;
+}
+.yellow-battery::before {
+  background-color: yellow;
+  width: 100px;
+}
+.green-battery::before {
+  background-color: green;
+  width: 150px;
+}
+.lab4-div::before, .lab4-div::after {
+  height: 50px;
+  content: '';
+  position: absolute;
+}
+.lab4-div::after {
+  width: 10px;
+  height: 20px;
+  background: #000;
+  right: -10px; 
+  top: 15px;
 }
