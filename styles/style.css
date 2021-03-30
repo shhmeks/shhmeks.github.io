@@ -53,7 +53,6 @@ img{
 
 /*----- Start of LEFT-SIDE styles ------*/
 .left-side{
-  
   width: 300px;
   padding-top:30px;
   padding-left:30px;
@@ -116,10 +115,8 @@ img{
     padding-top: 70px;
     padding-right: 60px;
     padding-bottom: 70px;
+    text-align: justify;
 }
-p {
-    margin-top: 0.5em;
-   }
 h1 {
     display: block;
     font-size: 2em;
@@ -128,6 +125,9 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+p {
+    margin-top: 0.5em;
 }
 
 .experience .list ul {
@@ -172,7 +172,7 @@ h1 {
 
 }
 .subheading {
-    margin-top: 10px;
+    margin-top: 30px;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
