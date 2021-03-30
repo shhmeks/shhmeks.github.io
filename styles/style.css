@@ -471,3 +471,218 @@ h1 {
   right: -10px; 
   top: 15px;
 }
+/* END Laboratory work 4*/
+
+/* Laboratory work 5*/
+
+/*task 1*/
+.lab5-task1-main-block {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+  margin: auto;
+}
+.lab5-task1-main-block>* {
+  position: absolute;
+}
+.lab5-house {
+  width: 150px;
+  height: 150px;
+  background: coral;
+  bottom: 0px;
+  left: 75px;
+}
+.lab5-roof {
+  width: 0;
+  height: 0;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 100px solid red;
+  top: 50px;
+  left: 40px;
+}
+.lab5-chimney {
+  width: 20px;
+  height: 60px;
+  background: black;
+  right: 110px;
+  top: 50px;
+}
+.lab5-door {
+  width: 60px;
+  height: 90px;
+  background: brown;
+  left: 90px;
+  bottom: 0px;
+}
+.lab5-window {
+  width: 40px;
+  height: 40px;
+  background: cyan;
+  bottom: 40px;
+  right: 90px;
+}
+/* END task 1*/
+
+/*task 2*/
+.lab5-task2-main {
+  position: relative;
+  background-color: #81ccc7;
+  width: 500px;
+  height: 400px;
+  margin: auto;
+
+}
+.lab5-task2-main>img {
+    position: absolute;
+}
+.lab5-clouds {
+  top: 10px;
+  right: -50px;
+  height: 30%;
+}
+.lab5-world {
+  bottom: 0;
+  left: 0;
+}
+.lab5-water {
+  bottom: 0px;
+}
+.lab5-ship {
+  bottom: 25px;
+  left: 20px;
+  width: 20%;
+  height: 30%;
+}
+/*END task 2*/
+
+/*task 3*/
+.lab5-border{
+    border: 1px solid black;
+}
+.lab5-task3-fullwrap {
+  position: relative;
+  width: 600px;
+  height: 700px;
+  padding: 10px;
+  margin: auto;
+}
+.lab5-task3-header {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.lab5-task3-wrap {
+  height: 400px;
+  padding: 10px;
+}
+.lab5-task3-main, .lab5-task3-sidebar {
+  height: 100%;
+  display: inline-block;
+}
+.lab5-task3-main {
+  width: 325px;
+  margin-right: 5px;
+}
+.lab5-task3-sidebar {
+  width: 220px;
+}
+.lab5-task3-footer {
+  height: 155px;
+  margin-top: 10px;
+}
+/*END task 3*/
+
+/*task 4*/
+.lab5-task4-main-wrap {
+  position: relative;
+}
+
+.lab5-task4-position, .lab5-task4-float {
+  width: 205px;
+  height: 320px;
+  border: 3px solid #5f9d9f;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.lab5-task4-float {
+  margin-left:180px;
+  margin-right:20px;
+}
+.lab5-task4-casio {
+  display: block;
+  height: 30px;
+  width: 200px;
+  margin-top:10px;
+  font-size: 14px;
+  background-color: #5f9d9f;
+  color: #FFF;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+.lab5-task4-input {
+  height: 30px;
+  width: 185px;
+  display: block;
+  margin: 5px auto 5px;
+  border: 3px solid #5f9d9f;
+  border-radius: 5px;
+  outline:none;
+  text-align: right;
+  color: #5f9d9f;
+  font-size: 20px;
+  font-family: Arial;
+}
+.lab5-task4-space{
+  height: 30px;
+  width: 80px;
+  float: left;
+  margin-bottom: 12px;
+}
+.lab5-task4-rectangle {
+  height: 30px;
+  width: 75px;
+  background-color: #5f9d9f;
+  margin-bottom: 12px;
+}
+.lab5-task4-float .lab5-task4-rectangle {
+  float: right;
+  margin-right: 11px;
+}
+.lab5-task4-key {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #5f9d9f;
+  border-radius: 10px;
+  color: #5f9d9f;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 15px;
+  font-family: Arial;
+  float: left;
+  margin: 0 0 8px 8px;
+}
+.lab5-task4-key:hover {
+  background-color: #5f9d9f;
+  color: #fff;
+}
+.lab5-task4-key:active {
+  background-color: #737e9f;
+  color: #fff;
+  border-color: #737e9f;
+}
+.lab5-task4-position .lab5-task4-rectangle {
+  position: absolute;
+  right: 200px;
+  top: 83px;
+}
+.lab5-task4-position .lab5-task4-input {
+  margin-bottom: 47px;
+}
+/*END task 4*/
+
+/* END Laboratory work 5*/
