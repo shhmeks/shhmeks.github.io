@@ -723,6 +723,41 @@ p {
 /*END task 1*/
 
 /*task 2*/
+.lab6-task2-wrap {
+  font-family: Arial;
+  width: 700px;
+  margin: 10px auto;
+}
+
+.lab6-task2-main-img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.lab6-task2-h1 {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.lab6-task2-p {
+  margin: 20px 0;
+  text-indent: 30px;
+}
+
+.lab6-task2-second-img {
+  width: 35%;
+  float: right;
+  margin: 30px 0 30px 30px;
+}
+
+.lab6-task2-footer {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+}
 /*END task 2*/
 
 /*task 3*/
