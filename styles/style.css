@@ -761,9 +761,180 @@ p {
 /*END task 2*/
 
 /*task 3*/
+.lab6-task3-wrap {
+  width: 800px;
+  height: 120px;
+  padding-top: 30px;
+  background-image: url("../img//body-bg.png");
+}
+.lab6-task3-img,
+.lab6-task3-hotbar{
+  width: 700px;
+}
+
+.lab6-task3-img {
+  margin: auto;
+  height: 50px;
+}
+
+.lab6-task3-hotbar {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  left: 34px;
+}
+
+.lab6-task3-hotbar li {
+  background-color: #eff3f4;
+  margin-right: 3px;
+  list-style: none;
+}
+
+.lab6-task3-hotbar button {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  font-size: 11px;
+}
+
+.lab6-task3-hotbar button:focus,
+.lab6-task3-hotbar button:focus::after {
+  background-color: #c1d1d6;
+}
+
+.lab6-task3-hotbar button:focus::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1.5px;
+  top: 38px;
+}
 /*END task 3*/
 
 /*task 4*/
+.lab6-task4-wrap {
+  width: 800px;
+  height: 400px;
+  background: linear-gradient(152deg, rgba(37,30,32,1) 0%, rgba(68,56,54,1) 100%);
+  padding: 20px 50px 30px 40px;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+.lab6-task4-content {
+  width: 710px;
+  height: 300px;
+}
+
+.lab6-task4-left {
+  position: relative;
+  width: 255px;
+  background-image: url('../img/burger.jpg');
+  background-size: contain;
+  float: left;
+}
+
+.lab6-task4-left, .lab6-task4-right{
+  height: inherit;
+}
+
+.lab6-task4-advert {
+  position: absolute;
+  width: 270px;
+  height: 150px;
+  bottom: 25px;
+  right: 5px;
+  background-color: #000;
+  padding-top: 15px;
+  color: #FFF;
+}
+.lab6-task4-advert h1 {
+  font-size: 30px;
+  line-height: .75;
+}
+
+.lab6-task4-advert-price {
+  font-family: Arial;
+  font-size: 8px;
+}
+.lab6-task4-advert h1, .lab6-task4-advert-price{
+  font-weight: bold;
+}
+
+.lab6-task4-advert-price span {
+  color: #f5c539;
+}
+
+.lab6-task4-right {
+  width: 455px;
+  background-color: #FFF;
+  float: right;
+}
+
+.lab6-task4-right h2 {
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 25px;
+}
+
+.lab6-task4-pricelist {
+  padding-top: 15px;
+  padding-left: 35px;
+  list-style: none;
+}
+
+.lab6-task4-pricelist li {
+  position: relative;
+  float: left;
+  width: 150px;
+  font-size: 14px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.lab6-task4-pricelist div {
+  color: grey;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+.lab6-task4-pricelist li:nth-child(2n) {
+  margin-left: 50px;
+}
+
+.lab6-task4-pricelist li::before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: #d5d5d5;
+  transform: rotate(45deg);
+  bottom: -3.5px;
+  left: 75px;
+}
+
+.lab6-task4-wrap  button{
+  margin-top: 5px;
+  height: 50px;
+  width: 150px;
+  float: right;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.lab6-task4-wrap button:hover {
+  color: #000000;
+  background-color: #fff;
+}
+
+.lab6-task4-wrap button:active {
+  background-color: grey;
+}
 /*END task 4*/
 
 /*END Laboratory work 6*/
