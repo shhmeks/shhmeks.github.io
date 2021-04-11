@@ -938,3 +938,153 @@ p {
 /*END task 4*/
 
 /*END Laboratory work 6*/
+
+/*Laboratory work 7*/
+.lab7-wrap {
+  position: relative;
+  height: 450px;
+  width: 798px;
+  border: 1px solid lightgrey;
+  margin-top: 50px;
+  display: flex;
+  font-family: Arial;
+}
+
+.lab7-wrap-good {
+  position: relative;
+  height: inherit;
+  width: 100%;
+  border-right: 1px solid lightgrey;
+  padding: 0 16px;
+}
+
+.lab7-wrap-good:last-child {
+  border-right: none;
+}
+
+.lab7-wrap-good div:first-child {
+  position: absolute;
+  right: 10px;
+  top: -30px;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  width: 58px;
+  height: 58px;
+  color: #FFF;
+  font-size: 9px;
+  text-align: center;
+}
+
+.lab7-sticker-new {
+  background-color: #86b022;
+  padding-top: 22px;
+}
+
+.lab7-sticker-hit {
+  background-color: #009de1;
+  padding-top: 16px;
+}
+
+.lab7-category {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid lightgrey;
+  color: grey;
+  padding: 33px 0;
+  margin-bottom: 16px;
+}
+
+.lab7-wrap-good img {
+  max-width: 90%;
+  max-height: 130px;
+  display: block;
+  margin: auto;
+  width: auto;
+}
+
+.lab7-name {
+  position: absolute;
+  bottom: 150px;
+  left:50%;
+  transform: translate(-50%);
+  text-align: center;
+  text-decoration: none;
+  color: #4289fc;
+  font-weight: bold;
+}
+
+.lab7-wrap-good p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 110px;
+  font-size: 13px;
+}
+
+.lab7-number {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.lab7-crossed {
+  padding-right: 5px;
+  text-decoration: line-through;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.lab7-wrap-good button {
+  position: absolute;
+  left:50%;
+  transform:translate(-50%);
+  bottom: 40px;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.lab7-wrap-good .lab7-clickable {
+  background-color: yellow;
+  color: #000;
+}
+
+.lab7-wrap-good .lab7-clickable:hover {
+  background-color: #4289fc;
+  color: white;
+}
+
+
+.lab7-not-clickable {
+  background-color: #cc3399;
+  color: #FFF;
+}
+
+
+.lab7-arrow {
+  position: absolute;
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+  border: 2px solid lightgrey;
+  top: 67px;
+  background-color: #FFF;
+  padding-top: 8px;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+ .lab7-arrow-left {
+   padding-left: 7px;
+   left: -18px;
+ }
+
+ .lab7-arrow-right {
+   padding-left: 10px;
+   right: -18px;
+ }
+/*END Laboratory work 7*/
