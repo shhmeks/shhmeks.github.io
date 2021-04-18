@@ -1,3 +1,6 @@
+
+/*Start GENERAL*/
+
 *{
   margin: 0;
   padding: 0;
@@ -6,39 +9,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
   background: #efe4df url(https://img3.goodfon.ru/wallpaper/big/f/15/tekstura-tekstury-fon-linii.jpg) repeat 0 0;
+  background-size: cover;
 }
-
-.menu {
-  display: flex;
-  width: 980px;
-  padding: 10px;
-  background: #5c5f72;
-  color: #ffffff;
-  margin: auto;
-}
-.menu nav ul{
-  margin-left: 100px;
-}
-.menu nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.menu nav a:hover {
-  text-decoration: none;
-  color: #dbd9ed;
-}
-
-.menu nav ul {
-  display: flex;
-}
-
-.menu nav ul li {
-  list-style-type: none;
-  margin-left: 85px;
-  font-size: 20px;
-}
-
 
 img{
   display: block;
@@ -51,7 +23,61 @@ img{
   display: flex;
 }
 
-/*----- Start of LEFT-SIDE styles ------*/
+/*End GENERAL*/
+
+
+/*Start HEADER*/
+
+.menu {
+  display: flex;
+  width: 980px;
+  height: 50px;
+  background: #5c5f72;
+  color: #ffffff;
+  margin: 0 auto;
+  position: fixed;
+  z-index:999;
+}
+
+.menu a {
+  transition-duration: 0.5s;
+  text-decoration: none;
+  color: #fff;
+}
+.menu>a:hover {
+  color: #282a34;
+}
+
+.menu .fa-home{
+  width:300px;
+  font-size:50px;
+  text-align: center;
+}
+
+.menu ul {
+  display: flex;
+  width: 100%;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 13px 40px;
+  list-style-type: none;
+  margin: auto;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+.menu ul:first-child li {
+  padding: 13px 31px;
+}
+
+.menu li:hover {
+    background-color: #282a34;
+}
+/*End HEADER*/
+
+/*Start LEFT-SIDE */
+
 .left-side{
   width: 300px;
   padding-top:30px;
@@ -59,13 +85,15 @@ img{
   background-color:#282a34;
   color:#fff;
 }
+
 .photo{
+  margin-top:20px;
   margin-left:-30px;
 }
 .left-side__title{
   padding-top:30px;
   padding-bottom:10px;
-  font-size:1.5em;
+  font-size:24px;
   font-weight:bold;
   
 }
@@ -107,10 +135,14 @@ img{
   color:#dbd9ed;
 }
 
-/*----- End of LEFT-SIDE styles ------*/
+/*End LEFT-SIDE*/
+
+/*Start RIGHT-SIDE*/
 .right-side {
     width: 680px;
-    background: #fff;
+    background-color: #F3EAF3;
+    background-image: url(../img/bg.png);
+    background-size: cover;
     padding-left: 60px;
     padding-top: 70px;
     padding-right: 60px;
@@ -119,15 +151,15 @@ img{
 }
 h1 {
     display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
+    font-size: 32px;
+    margin-block-start: 10.7px;
+    margin-block-end: 10.7px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
 }
 p {
-    margin-top: 0.5em;
+    margin-top: 8px;
 }
 
 .experience .list ul {
@@ -139,7 +171,7 @@ p {
 }
 
 .portfolio li {
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .portfolio li a{
@@ -193,21 +225,38 @@ p {
     font-size: 10px;
     color: grey;
 }
+/*End RIGHT-SIDE*/
 
+
+/*Start FOOTER*/
 .footer {
     text-align: center;
     width: 980px;
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 10px;
     background: #5c5f72;
     margin: auto;
 }
-.facebook a{
-    display: inline-block;
-    width: 4%;
-} 
 
-/* Laboratory work 2*/
+.footer .social {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.footer .social a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.footer .social a:hover {
+    color: #282a34;
+}
+/*End FOOTER*/
+
+/* Start Laboratory works styles*/
 .right-side-lab{
   width: 1300px;
   background: #fff;
@@ -238,7 +287,9 @@ p {
   margin-top: 20px;
   font-size: 30px;
 }
+/* End Laboratory works styles*/
 
+/* Laboratory work 2*/
 .entities{
   font-size: 16px;
 }
