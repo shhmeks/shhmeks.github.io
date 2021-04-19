@@ -17,6 +17,19 @@ img{
   width: 100%;
 }
 
+h1 {
+    display: block;
+    font-size: 32px;
+    margin-block-start: 10.7px;
+    margin-block-end: 10.7px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 8px;
+}
 .main-wrap{
   width: 980px;
   margin: 0 auto;
@@ -149,26 +162,6 @@ img{
     padding-bottom: 70px;
     text-align: justify;
 }
-h1 {
-    display: block;
-    font-size: 32px;
-    margin-block-start: 10.7px;
-    margin-block-end: 10.7px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-p {
-    margin-top: 8px;
-}
-
-.experience .list ul {
-  margin-left: 17px;
-}
-
-.experience .list ul li {
-  margin-top: 10px;
-}
 
 .portfolio li {
     font-size: 16px;
@@ -179,19 +172,25 @@ p {
   color: #000000;
 }
 
-.list li {
-    display: list-item;
+.portfolio li a:hover{
+  color: #5c5f72;
+  font-weight: bold;
 }
-.list ol {
-    list-style-type: decimal;
 
-}
 .portfolio ol li::marker {
     font-weight: bold;
 }
 
 .experience{
   margin-bottom: 20px;
+}
+
+.experience .list ul {
+  margin-left: 17px;
+}
+
+.experience .list ul li {
+  margin-top: 10px;
 }
 
 ::marker {
