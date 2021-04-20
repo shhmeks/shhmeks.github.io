@@ -253,6 +253,11 @@ p {
 .footer .social a:hover {
     color: #282a34;
 }
+
+.footer span {
+  font-size: 10px;
+}
+
 /*End FOOTER*/
 
 /* Start Laboratory works styles*/
