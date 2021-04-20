@@ -13,36 +13,23 @@ body {
     background-color: #383838;
     background-image: url(../img/bg.png);
 }
-
 .container {
     width: 100%;
     max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
-
 a {
     text-decoration: none;
     color: #fff;
 }
-
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     text-transform: uppercase;
 }
 
 h2 {
     font-size: 32px;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    margin: 40px 0;
 }
 
 .button, button {
@@ -50,7 +37,7 @@ img {
     background-image: linear-gradient(145deg, #dd0000, #ff3670);
     color: #fff;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -87,23 +74,19 @@ img {
 header {
     background: url(../img/bg-01.jpg) center / cover no-repeat #666;
     min-height: 280px;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding: 150px 0 50px 0;
 }
 
 header h1 {
     font-family: 'Metal Mania', cursive;
     text-align: center;
-    font-size: 5.6em;
+    font-size: 90px;
     color: #fafafa;
-    margin-top: 0;
 }
 
 header .button {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
+    margin: 60px auto;
     width: 100%;
     max-width: 320px;
     text-align: center;
@@ -114,40 +97,32 @@ header .button {
 .tour-card {
     width: 220px;
     height: 240px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 0 10px 60px 10px;
+    padding: 40px 10px 20px;
     float: left;
     box-sizing: border-box;
-    padding: 40px 10px 20px;
     box-shadow: 0px 3px 3px 0px #212121;
 }
 
-#tour:after { 
-   content: '';
-   display: block; 
-   height: 0; 
-   clear: both;
+
+.tour-town, .tour-place {
+    margin-bottom: 10px;
 }
 
 .tour-town {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 20px;
 }
-.tour-place {
-    margin-bottom: 10px;
-}
+
 .tour-date {
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 15px;
 }
 .tour-card .button {
     padding: 10px;
     display: block;
     max-width: 140px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0;
 }
 
 .tour-card.madrid {
@@ -169,23 +144,17 @@ header .button {
 .tour-card{
 	background-blend-mode: multiply;
 }
+
 /* Gallery */
 #gallery .photo {
+    box-sizing: border-box;
     width: 33.334%;
     float: left;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 #gallery .photo:hover {
     opacity: 0.6;
-}
-
-#gallery:after { 
-   content: '';
-   display: block; 
-   height: 0; 
-   clear: both;
 }
 
 #gallery .photo img {
@@ -199,7 +168,7 @@ header .button {
     background-blend-mode: multiply;
     padding-top: 40px;
     padding-bottom: 80px;
-    margin-top: 40px;
+    margin-top: 720px;
     text-align: center;
 }
 
@@ -212,22 +181,21 @@ header .button {
     height: 40px;
     background-color: #fafafa;
     padding-left: 10px;
-    font-size: 1.2em;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+    outline: none;
 }
 
 #subscribe button {
     margin: 0;
     height: 44px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 
 
 /* Footer */
 footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0;
     background-color: #222;
     background-image: url(../img/bg.png);
     text-align: center;
@@ -238,13 +206,13 @@ footer .social {
 }
 
 footer .social a {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px;
 }
 
 footer .social a:hover {
-    color: red;
+    color: #ff3670;
 }
+
 footer .copyright {
     font-size: 13px;
 }
