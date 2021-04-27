@@ -57,6 +57,11 @@ p {
   text-decoration: none;
   color: #fff;
 }
+.menu li a {
+  display: block;
+  padding: 13px 40px;
+}
+
 .menu>a:hover {
   color: #282a34;
 }
@@ -74,13 +79,12 @@ p {
 
 .menu ul li {
   display: inline-block;
-  padding: 13px 40px;
   list-style-type: none;
   margin: auto;
   font-size: 20px;
   transition-duration: 0.5s;
 }
-.menu ul:first-child li {
+.menu ul:first-child a {
   padding: 13px 31px;
 }
 
@@ -163,18 +167,30 @@ p {
     text-align: justify;
 }
 
+.portfolio ol {
+  margin-left: 0px;
+}
+
 .portfolio li {
     font-size: 16px;
+    list-style-type: none;
+    background-image: linear-gradient(145deg, #282a34, #5c5f72);
+    display: inline-block;
+    border-radius: 20px;
+    margin: 7.5px 0;
+}
+.portfolio li:hover {
+  background-image: linear-gradient(145deg, #5c5f72, #282a34);
+}
+.portfolio li:active {
+  background-image: linear-gradient(145deg, #1a203d, #3d4158);
 }
 
 .portfolio li a{
+  display: block;
   text-decoration: none;
-  color: #000000;
-}
-
-.portfolio li a:hover{
-  color: #5c5f72;
-  font-weight: bold;
+  color: #fff;
+  padding: 10px 30px;
 }
 
 .portfolio ol li::marker {
