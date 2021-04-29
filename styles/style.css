@@ -10,6 +10,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   background: #efe4df url(https://img3.goodfon.ru/wallpaper/big/f/15/tekstura-tekstury-fon-linii.jpg) repeat 0 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 img{
