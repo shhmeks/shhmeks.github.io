@@ -31,6 +31,39 @@ h1 {
 p {
     margin-top: 8px;
 }
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #efe4df url(https://img3.goodfon.ru/wallpaper/big/f/15/tekstura-tekstury-fon-linii.jpg) repeat 0 0;
+  background-size: cover;
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  margin-top: -32px;
+  margin-left: -32px;
+  background: url('../img/loader.gif') no-repeat 50% 50%;
+}
+
+.loaded_hiding .preloader {
+  transition: 1s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
 .main-wrap{
   width: 980px;
   margin: 0 auto;
@@ -276,6 +309,31 @@ p {
 }
 
 /*End FOOTER*/
+
+/*Start SCROLL*/
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  height: 80px;
+  width: 80px;
+  right: 90px;
+  bottom: 10px;
+  background-image: url(../img/arrow-up.png);
+  background-size: cover;
+}
+div>.scroll-to-top{
+  transition-duration: 0.5s;
+}
+
+.scroll-to-top:hover {
+  background-image: url(../img/arrow-up-hover.png);
+}
+
+.scroll-to-top:active {
+  background-image: url(../img/arrow-up.png);
+}
+/*End SCROLL*/
+
 
 /* Start Laboratory works styles*/
 .right-side-lab{
