@@ -330,6 +330,7 @@ p {
   bottom: 10px;
   background-image: url(../img/arrow-up.png);
   background-size: cover;
+  cursor: pointer;
 }
 div>.scroll-to-top{
   transition-duration: 0.5s;
