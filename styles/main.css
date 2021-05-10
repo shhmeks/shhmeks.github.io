@@ -8,9 +8,10 @@
 }
 body{
   font-family: 'Montserrat', sans-serif;
-  background: #efe4df url(https://img3.goodfon.ru/wallpaper/big/f/15/tekstura-tekstury-fon-linii.jpg) repeat 0 0;
+  background: #efe4df url(../img/main-bg.jpg) repeat 0 0;
   background-size: cover;
   background-attachment: fixed;
+  transition-duration: 0.5s;
 }
 
 img{
@@ -39,7 +40,7 @@ p {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: #efe4df url(https://img3.goodfon.ru/wallpaper/big/f/15/tekstura-tekstury-fon-linii.jpg) repeat 0 0;
+  background: #efe4df url(../img/main-bg.jpg) repeat 0 0;
   background-size: cover;
   z-index: 1001;
 }
@@ -68,7 +69,7 @@ p {
   width: 980px;
   margin: 0 auto;
   display: flex;
-  box-shadow: 0 0px 20px black;
+  box-shadow: 0 0 20px black;
 }
 
 /*End GENERAL*/
@@ -333,8 +334,6 @@ p {
   background-image: url(../img/arrow-up.png);
   background-size: cover;
   cursor: pointer;
-}
-div>.scroll-to-top{
   transition-duration: 0.5s;
 }
 
@@ -346,3 +345,23 @@ div>.scroll-to-top{
   background-image: url(../img/arrow-up.png);
 }
 /*End SCROLL*/
+
+
+/*Start LAMP*/
+#lamp{
+  margin-left: 8px;
+  position: fixed;
+  height: 64px;
+  width: 64px;
+  top: 55px;
+  background-image: url(../img/lamp-dark.png);
+  background-size: cover;
+  transform: rotate(-45deg);
+  transition-duration: 0.5s;
+}
+
+#lamp:hover{
+  background-image: url(../img/lamp-light.png);
+}
+
+/*End LAMP*/
