@@ -1,5 +1,5 @@
   $(window).scroll(function() {
-    if ($(this).scrollTop() >= 200) {
+    if ($(this).scrollTop() > 0) {
       $('.scroll-to-top').fadeIn();
     }
     else {
