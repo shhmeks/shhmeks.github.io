@@ -202,22 +202,32 @@ p {
 }
 
 .portfolio ol {
+  transition-duration: 0.5s;
+}
+
+.portfolio ol {
   margin-left: 0px;
 }
 
 .portfolio li {
     font-size: 16px;
     list-style-type: none;
-    background-image: linear-gradient(145deg, #282a34, #5c5f72);
     display: inline-block;
     border-radius: 20px;
     margin: 7.5px 0;
 }
-.portfolio li:hover {
+.portfolio li, .portfolio li:nth-child(2n):hover{
+  background-image: linear-gradient(145deg, #282a34, #5c5f72);
+}
+
+.portfolio li:hover, .portfolio li:nth-child(2n) {
   background-image: linear-gradient(145deg, #5c5f72, #282a34);
 }
-.portfolio li:active {
-  background-image: linear-gradient(145deg, #1a203d, #3d4158);
+
+.portfolio li:active, .portfolio li:nth-child(2n):active {
+  background-color: #5c5f72;
+  background-image: none;
+  box-shadow: inset 2px 2px 5px #282a34;
 }
 
 .portfolio li a{
