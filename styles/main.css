@@ -358,6 +358,7 @@ p {
   background-size: cover;
   transform: rotate(-45deg);
   transition-duration: 0.5s;
+  z-index: 998;
 }
 
 #lamp:hover{
