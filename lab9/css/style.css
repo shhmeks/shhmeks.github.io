@@ -1,0 +1,49 @@
+.lab9-task1-1-wrap,  
+.lab9-task1-2-wrap{
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  .lab9-task1-1-wrap  header, 
+  .lab9-task1-2-wrap  header{
+    background: purple;
+    height: 100px;
+  }
+
+  .lab9-task1-1-wrap  h1, 
+  .lab9-task1-2-wrap h1{
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  .lab9-task1-1-wrap  article, 
+  .lab9-task1-2-wrap  article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+  }
+
+  .lab9-task1-1-wrap  section,
+  .lab9-task1-2-wrap  section {
+    display: flex;
+  }
+
+  .lab9-task1-1-wrap  article p,
+  .lab9-task1-2-wrap  article p{
+    font-size: 13px;
+  }
+
+
+  .lab9-task1-2-wrap section {
+    flex-direction: row;
+  }
+
+  .lab9-task1-2-wrap article {
+   flex: 150px;
+  }
+
+  .lab9-task1-2-wrap  section {
+   flex-wrap: wrap;
+  }
