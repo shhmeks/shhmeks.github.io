@@ -1,0 +1,11 @@
+.lab10-task1-wrap conteiner {
+  display: grid;
+  background-color: blue;
+  grid-column: 26;
+  }
+
+  .lab10-task1-wrap item {
+    height: 16px;
+    width: 16px;
+    background-color: red;
+  }
