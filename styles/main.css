@@ -333,16 +333,16 @@ p {
   bottom: 10px;
   background-image: url(../img/arrow-up.png);
   background-size: cover;
+  background-position: -80px 0px;
   cursor: pointer;
-  transition-duration: 0.5s;
 }
 
 .scroll-to-top:hover {
-  background-image: url(../img/arrow-up-hover.png);
+  background-position: 0px 0px;
 }
 
 .scroll-to-top:active {
-  background-image: url(../img/arrow-up.png);
+  background-position: -80px 0px;
 }
 /*End SCROLL*/
 
@@ -354,15 +354,15 @@ p {
   height: 64px;
   width: 64px;
   top: 55px;
-  background-image: url(../img/lamp-dark.png);
+  background-image: url(../img/lamp.png);
+  background-position: 0px 0px;
   background-size: cover;
   transform: rotate(-45deg);
-  transition-duration: 0.5s;
   z-index: 998;
 }
 
-#lamp:hover{
-  background-image: url(../img/lamp-light.png);
+#lamp:hover {
+  background-position: -64px 0px;
 }
 
 /*End LAMP*/
