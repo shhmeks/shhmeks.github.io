@@ -147,7 +147,7 @@ body > div > div.dad-header > div > nav > div{
 
 }
 
-/*Отдельный медиазапрос для этого контенте*/
+/*окремий медіазапит*/
 @media only screen and (max-width: 1080px){
 .content-2-l, .content-2-r{
 	float: none !important;
@@ -157,7 +157,7 @@ body > div > div.dad-header > div > nav > div{
 	width: auto !important;
 }
 }
-/*Отдельный медиазапрос для этого контенте*/
+/*окремий медіазапит*/
 
 /*Mobile version*/
 
