@@ -21,7 +21,6 @@ float: none;
 text-align: center;
 margin-top: 17px;
 border-radius: 5px;
-
 }
 .navbar-nav li {
 float: none;
@@ -38,6 +37,9 @@ display: inline-block;
 .dad-search-form{
 	display: none;
 }
+.navbar-nav {
+	display: none;
+	}
 
 body > div > div.dad-header > div > div.dad-header-top{
 	height: 130px !important;
@@ -55,6 +57,11 @@ body > div > div.dad-header > div > nav > div{
 	float: none !important;
 	margin: 0 auto !important;
 }
+
+.dad-slider .item-text {
+	text-align: center !important;
+}
+
 .carousel-inner > .item  .item-text {
 	padding-top: 60px !important;
 	padding-bottom: 40px;
@@ -110,18 +117,34 @@ body > div > div.dad-header > div > nav > div{
 
 .content-1-l-1, .content-1-l-2,
 .content-1-l-3, .content-1-l-4{
-	display: block !important;
+	clear: both !important;
+	display: inline-block !important;
 	margin: 0 auto !important;
-	margin-top: 20px !important;
+	margin-top: 7px !important;
+	padding: 0 50px;
+}
+
+
+.content-1-l-1, .content-1-l-3{
+	margin-left: 20px !important;
 }
 .content-1-r{
     float: right;
 	background-image: none !important;
+	margin-top: 70px;
 }
+.content-2-r{
+    min-height: 250px !important;
+}
+
 
 .footer-menu{
 	display: none;
 }
+.dad-tm{
+	padding-top: 50px;
+}
+
 }
 
 /*Отдельный медиазапрос для этого контенте*/
@@ -244,12 +267,6 @@ html, body {
 	width: 350px;
 }
 
-.dad-search-form form input[type="submit"]:hover{
-	background-image: url(../img/search-btn-hover.jpg);
-	background-repeat: repeat-x;
-	color: #ddd;
-}
-
 
 
 
@@ -259,13 +276,6 @@ html, body {
 	font-size: 12px;
 	font-weight: bold;
 	background-image: url(../img/nav-bg.jpg);
-	background-repeat: repeat-x;
-}
-
-
-
-.navbar-collapse > ul > li > a:hover {
-	background-image: url(../img/nav-bg-hover.jpg);
 	background-repeat: repeat-x;
 }
 
@@ -403,10 +413,6 @@ body > div > div.dad-header > div > nav{
 	border-radius: 12px;
 	margin-bottom: 10px;
 	margin-top: 10px;
-}
-.btn-in-slide a:hover{
-	background-image: url(../img/slider-item-btn-hover.jpg);
-	background-repeat: repeat-x;
 }
 
 #myCarousel > ol{
